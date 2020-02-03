@@ -1,0 +1,25 @@
+.Quiz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 100px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(#5041b2), to(#7969e6));
+    background: linear-gradient(90deg, #5041b2 0%, #7969e6 100%);
+}
+
+.Quiz h1 {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.QuizWrapper {
+    width: 600px;
+}
+
